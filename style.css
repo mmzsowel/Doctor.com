@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/*headersection Navbar &  Manuber  area */>
+
+/*container*/
+.container{
+    width: 1040px;
+    margin: 0 auto;
+
+}
+
+/*header*/
+.header{
+    background-color: #F7F2F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 5px 0px 5px 60px;
+}
+.logo a{
+
+}
+.logo a img{
+    width: 150px;
+    height: 80px;
+}
+
+
+.menu{
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 17px 65px 0px 0px;
+}
+.menu ul li{
+    margin: 0 7px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    background-color: #7174A9;
+    color:white;
+}
+
+/*--End--*/
+
+
+/*1st Peages Banner Hero area*/
+ /*Bnnner Sction*/
+.banner{
+    background-image: url(img/2.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    padding: 116px 10px 0px 182px;
+}
+.banner h1{
+    color: #6E6FA7; 
+}
+.banner h2{
+    font-size: 31px;
+
+    margin-top: -18px;
+}
+.banner a{
+    background-color: #A7A8CA;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.banner a:hover{
+    background-color: #7174A9;
+}
+
+
+/*--End--*/
+
+ /*Sevice Sction*/
+
+
+.service{
+  display: flex;
+  overflow: hidden;
+  padding-top: 1px;
+
+}
+.icon1{
+    width: 25%;
+    background-color: #6E6FA7;
+    text-align: center;
+    color: #F7F2F6;
+    opacity: 50%;
+    height: 200px;
+    padding: 10px 15px 10px 15px;
+}
+
+.icon2{
+    width: 25%;
+    background-color: #6E6FA7;
+    text-align: center;
+    color: #F7F2F6;
+    opacity: 60%;
+    height: 200px;
+    padding: 10px 15px 10px 15px;
+}
+.icon3{
+    width: 25%;
+    background-color: #6E6FA7;
+    text-align: center;
+    color: #F7F2F6;
+    opacity: 80%;
+    height: 200px;
+    padding: 10px 15px 10px 15px;
+}
+.icon4{
+    width: 25%;
+    background-color: #6E6FA7;
+    text-align: center;
+    color: #F7F2F6;
+    opacity: 100%;
+    height: 200px;
+    padding: 10px 15px 10px 15px;
+}
+
+
+/*--End--*/ 
+
+/*2nd Peages Service & About area*/
+/*About  sction*/
+
+.doctor{
+    background-image: url(img/doctor.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 116px 10px 0px 182px;
+}
+.doctor code{
+    color: #8A8BB8;
+}
+.doctor a{
+    background-color: #A7A8CA;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.doctor a:hover{
+    background-color: #7174A9;
+}
+
+
+.recharch{
+    width: 100%;
+    height: 300px;
+    background-image: url(img/microscope.jpg);
+    background-size: cover;
+    opacity: 80%;
+   
+}
+.text{
+    text-align: center;
+    padding: 95px 20px 0px 20px;
+    color: azure;
+
+}
+.text a{
+    background-color: #A7A8CA;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.text a:hover{
+    background-color: #7174A9;
+}
+
+/*--End--*/ 
+
+
+/*3rd Peages Product area*/
+/* Product sction*/
+
+.product{
+    padding: 20px;
+    
+}
+.textbox{
+    text-align: center;
+}
+.item-box{
+    display: flex;
+}
+.item1{
+    width: 33.33%;
+    margin: 0px 10px 0px 10px;
+    
+}
+.item1 p{
+    color: #8A8BB8;
+}
+.item1 img{
+    
+    height: 150px;
+}
+.item1 a{
+    background-color: #A7A8CA;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.item1 a:hover{
+    background-color: #7174A9;
+}
+
+
+/*--End--*/ 
+
+/*4rd Peages Blog area*/
+/* Blog sction*/
+
+.blog{
+    background-color: #F7F2F6;
+}
+.blog-text{
+    text-align: center;
+    padding-top: 10px;
+}
+.blog-image{
+    display: flex;
+    padding: 15px 25px 15px 25px;
+}
+.im1{
+    width: 50%;
+    
+    margin: 0 7px;
+}
+.im1 img{
+    width: 100%;
+    height: 300px;
+}
+.im2{
+    width: 50%;
+    
+    margin: 0 7px;
+}
+.im2 img {
+    width: 100%;
+    height: 300px;
+}
+
+/*--End--*/ 
+
+
+/* Footer Area*/
+.footer{
+    background-color: darkgray;
+    height: 110px;
+}
+.company-logo{
+   text-align: center;
+   padding-top: 2px;
+}
+.company-logo img{
+    width: 150px;
+    height: 60px;
+}
+.f-bottom{
+text-align: center;
+}
+
+.f-bottom a{
+  text-decoration: none;
+}
+.f-bottom a i{
+    font-size: 30px;
+    padding: 14px;
+}
+
+/*--End--*/ 
